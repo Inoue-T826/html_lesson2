@@ -1,0 +1,125 @@
+body {
+    font-family: "Avenir Next";
+    margin:0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+.wrapper {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height:280px;
+}
+
+.wrapper-right {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper-right li{
+    margin:0 10px;
+}
+
+.insta {
+    width: 20px;
+}
+
+#mainvisual img{
+    width:100%;
+    max-width: 1920px;
+    height:420px;
+    object-fit: cover;
+}
+
+.works-imgs {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.works-wrapper img{
+    width:30%;
+    margin:1.5%;
+}
+
+.news-wrapper p{
+    border-bottom: solid 1px #c6c6c6;
+}
+
+.ppp{
+    border-top: solid 1px #c6c6c6;
+    padding-top:17px;
+}
+
+.contact-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.contact-part {
+    width:100%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-submit {
+    width:100px;
+}
+
+.con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-part input,textarea {
+    width:83%;
+    font-size: 18px;
+}
+
+.contact-part input {
+    height:40px;
+} 
+
+.contact-part textarea {
+    height:80px;
+}
+
+.contact-submit {
+    color:white;
+    background-color: black;
+    width:150px;
+    height:50px;
+    margin-top: 20px;
+}
+
+.contact-submit:hover {
+    color: black;
+    background-color: white;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    font-size: 10px;
+}
